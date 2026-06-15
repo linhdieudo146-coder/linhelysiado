@@ -1,35 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Linh Elysia Do Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linh Elysia Do Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav>
+    <h2>Linh.</h2>
+    <div>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <button id="themeBtn">🌙</button>
+    </div>
+  </nav>
 
-    <h1>Hi, I'm Linh Elysia Do</h1>
-
+  <section class="hero">
+    <p class="tag">Data Science • Web Design • Analytics</p>
+    <h1>Hi, I’m Linh 👋</h1>
+    <h2>I build clean digital experiences with data and design.</h2>
     <p>
-        Data Science student at the University of Utah with an
-        Information Systems minor.
+      Data Science student at the University of Utah with an Information Systems minor.
+      Interested in analytics, machine learning, web development, and real-world business systems.
     </p>
+    <a class="btn" href="#projects">View My Work</a>
+  </section>
 
-    <h2>Projects</h2>
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Game Day Analytics Challenge</h3>
+        <p>Top 5 out of 40 teams. Used Python, Tableau, and data storytelling.</p>
+      </div>
+      <div class="card">
+        <h3>Break Free Candy Inventory System</h3>
+        <p>Built an inventory system using AppSheet, Google Sheets, and Shopify integration logic.</p>
+      </div>
+      <div class="card">
+        <h3>Jazz Predict Live</h3>
+        <p>Designed a real-time fan prediction app concept for Utah Jazz game engagement.</p>
+      </div>
+      <div class="card">
+        <h3>Cinemark Movie Website</h3>
+        <p>Created movie website pages using HTML and CSS for a web applications class.</p>
+      </div>
+    </div>
+  </section>
 
-    <ul>
-        <li>Game Day Analytics Challenge</li>
-        <li>Break Free Candy Inventory System</li>
-        <li>Cinemark Movie Website</li>
-        <li>Jazz Predict Live</li>
-    </ul>
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div>
+        <h3>UCHWA Intern</h3>
+        <p>Duda CMS, Glue Up CRM, Canva, and digital content management.</p>
+      </div>
+      <div>
+        <h3>Product Engineer / Data Systems</h3>
+        <p>Built inventory and sales tracking tools for Break Free Candy.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>Experience</h2>
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>Java</span>
+      <span>SQL</span>
+      <span>HTML/CSS</span>
+      <span>Tableau</span>
+      <span>Django</span>
+      <span>AppSheet</span>
+      <span>GitHub</span>
+    </div>
+  </section>
 
-    <p>
-        Intern at Utah Community Health Worker Association
-    </p>
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: linhdieudo146@gmail.com</p>
+    <p>GitHub: linhdieudo146-coder</p>
+  </section>
 
-    <h2>Contact</h2>
-
-    <p>Email: linhdieudo146@@gmail.com</p>
-
+  <script src="script.js"></script>
 </body>
 </html>
